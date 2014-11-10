@@ -1,6 +1,6 @@
 # CircleBack Coding exercise 
 
-This is a quick 4-6 hour coding exercise to gauge your skillset and ability to work with the iOS SDK.  You’re free to produce the code in anyway you like (provided it’s your own code).  CocoaPods are ok to use, just please note which you used on the README file.  We also request you include your pods directory.  This is considered best practice anyway.  When you’re done put the code on github and supply a link for us to pull the code and have a look.  
+This is a quick 4-6 hour coding exercise to gauge your skillset and ability to work with the iOS SDK.  You’re free to produce the code in anyway you like (provided it’s your own code).  CocoaPods are ok to use, just please note which you used on the README file.  We also request you include your pods directory (which is considered best practice anyway).  When you’re done put the code on github and supply a link for us to pull the code and have a look.  
 
 ## General:
 We’re going to create a simple faux-contact management app.  It won’t interface with the address book framework directly, but will rather mimic some of the capabilities of the iOS contacts application.  The app will consist of three primary views
@@ -19,7 +19,7 @@ We’re going to create a simple faux-contact management app.  It won’t interf
   * I should be able to go back to return to the list or edit the contact from here (an edit button is fine)
 3. 	A contact edit view, where the above information can be changed by a user.  It’s not required to add ability to change the contact image.  I should be able to save the contact and have it reflected throughout the rest of the app or or go back canceling my changes.  When I go back I should be alerted that will lose my changes and I’m provided the opportunity to cancel.  Reuse this view for adding a contact as well.
 
-Your code should use proper design patterns throughout.  The code should compile after pulling and run without crashing on iOS8+.  We’ll not be judging design per se, but your UI should be intuitive; use the iOS contacts app as a guide.  Lastly, please supply any additional thoughts you might have implemented with more time other concerns about the project (errata).
+Your code should use proper design patterns throughout.  The code should compile and run without crashing on iOS8+.  We’ll not be judging design per se, but your UI should be intuitive; use the iOS contacts app as a guide.  Lastly, please supply any additional thoughts you might have implemented with more time other concerns about the project (errata).
 
 That’s the minimum.  Extra credit for any of the following:
 * Provide persistence (CoreData or other) so my changes are maintained after the app is killed.
